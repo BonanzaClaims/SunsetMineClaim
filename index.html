@@ -1,0 +1,684 @@
+<!doctype html>
+
+<style>
+
+a.main {
+	
+	background-color: #FFFFFF;
+	padding: 10px;
+	font-family: helvetica;
+	color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+body.bodymain {
+	
+	background-color: #000000;
+	align: center;
+}
+
+h1 {
+	font-size: 26px;
+	font-family: helvetica;
+	text-align: left;
+	color: #ffffff; 
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+h1.assay {
+	
+	font-size: 26px;
+	font-family: helvetica;
+	font-weight: lighter;
+	text-align: left;
+	color: #ffffff; 
+	padding-left: 25px;
+	padding-top: 10px;
+	border-bottom-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-top-style: none;
+	border-color: #ffffff;
+	border-width: 0.050em;
+}
+
+h2.h2main {
+	
+	font-size: 26px;
+	font-family: helvetica;
+	text-align: center;
+	color: #ffffff; 
+	padding: 7px;
+	margin: 5px;
+	
+}
+
+h3 {
+	font-size: 20px;
+	font-family: helvetica;
+	text-align: left;
+	color: #ffffff; 
+	padding-top: 10px;
+}
+	
+	
+p.pmain {
+	
+	font-size: 16px;
+	text-align: left;
+	font-family: 'Slabo 27px', serif;
+	line-height: 1.5em;
+	color: #FFFFFF; 
+	padding-left: 24px;
+	padding-right: 38px;
+	padding-top: 0px;
+}
+
+p.disclaimer {
+	
+	font-size: 18px;
+	text-align: left;
+	font-family: helvetica;
+	line-height: 1.5em;
+	color: #D6D6D6; 
+	padding-left: 24px;
+	padding-right: 38px;
+}
+	
+
+
+ul {
+	
+	padding-left: 80px;
+	padding-top: 12px;
+}
+
+li {
+	
+	font-size: 18px;
+	text-align: left;
+	font-family: helvetica;
+	line-height: 1.5em;
+	color: #FFFFFF; 
+}
+
+p.bigp {
+	
+	margin-left: 0%;
+	margin-right: 0%;
+	color: #202E3A;
+	font-size: 30px;
+	line-height: 1.5em;
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 900;
+	background-color: #F4D220; 
+	margin-top: 30px;
+	letter-spacing: -1.5px;
+
+}
+
+p.oblique {
+	font-size: 16px;
+	text-align: left;
+	font-family: helvetica;
+	line-height: 1.2em;
+	color: #D6D6D6; 
+	padding-left: 24px;
+	padding-right: 38px;
+	font-style: italic;
+	padding-top: -10px;
+	
+}
+
+div.main {
+	
+	width: 900px;
+	padding: 40px;
+	height: 100%;
+	background-color: #202E3A;
+	margin: auto;
+	color: #ffffff; 
+	border-top-style: solid;
+	border-color: #f4cb28;
+	border-width: 0px;
+}
+
+div.table {
+	
+	align: center;
+	padding: 10px;
+	
+}
+
+div.pmaindiv {
+	
+	padding-left: 0px;
+	
+}
+
+table#t01, th, td.tdmain {
+    border: 1px none white;
+    border-collapse: collapse;
+	padding: 3px;
+	color: #D4D4D4;
+	font-family: helvetica;
+	margin-left:15%; 
+    margin-right:15%;
+	font-size: 15px;
+}
+
+table#t02, th, td.tdmain {
+    border-collapse: collapse;
+	padding: 3px;
+	color: #D4D4D4;
+	font-family: helvetica;
+	margin-left:7.5%; 
+    margin-right:7.5%;
+	font-size: 15px;
+}
+
+td.tdmain {
+    padding: 12px;
+	color: #ffffff;
+}
+
+th.yellow {
+	
+	background-color: #F4D220;
+	border-bottom: solid;
+	border-width: 1px;
+	text-align: left;
+	color: #161616;
+	padding: 12px;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+th.blue1 {
+	
+	background-color: #223647;
+	text-align: left;
+	color: #FFFFFF;
+	padding: 12px;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+th.blue2 {
+	
+	background-color: #202E3A;
+	text-align: left;
+	color: #FFFFFF;
+	padding: 12px;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: 200;
+}
+}
+
+table#t01 tr.trmain:nth-child(even) {
+    background-color: #202E3A;
+	
+}
+table#t01 tr.trmain:nth-child(odd) {
+    background-color: #223647;
+}
+
+table#t02 tr.trmain:nth-child(odd) {
+    background-color: #202E3A;
+}
+table#t02 tr.trmain:nth-child(even) {
+    background-color: #223647;
+}
+
+img.facts {
+	
+	margin-left: 30px;
+	
+}
+
+img.mainpics {
+
+}
+
+img.centered {
+	
+    display: block;
+    margin: auto;
+	padding: 30px;
+}
+
+img.centered-border {
+	
+    display: block;
+    margin: auto;
+	padding: 0px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #F4D220;
+}
+
+div.line {
+	
+	overflow: hidden;
+	white-space:nowrap;
+}
+
+hr.line {
+	
+	display:inline-block;
+	width: 100%;
+	
+}
+
+tr.border {
+	
+	
+	border-top: solid 1px #F4D220;
+	border-color: #F4D220;
+	
+}
+	
+	
+
+
+</style>
+
+
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+          
+<meta charset="utf-8">
+<title>Ebay Claim Page</title>
+</head>
+
+<body class="bodymain">
+
+<div class="main">
+
+<img class="centered" src="https://c1.staticflickr.com/5/4514/36605674284_6be79010d7_o.png" width=90% height=90%>
+
+<br>
+
+<h1>Sunset Mine Quick Facts</h1>
+
+<img class="facts" src="https://c1.staticflickr.com/5/4173/34579910446_dee75b0894_o.png" width=600px height=800px>
+
+<br>
+<br>
+
+<h1>Summary of Claim</h1>
+
+<div class="pmaindiv">
+<p class="pmain">
+Up for sale is the Relief Mine located in Linn County, Oregon. The Relief Mine is a single unpatented claim located on the south side of White Bull mountain, 34 miles from the town of Sweet Home, OR. The Relief Mine produced primarily gold with small amounts of silver, lead and zinc as byproducts. The mine is located on the adjacent side of the mountain where the famous gold rush town of Quartzville was situated. The Relief Mine was driven into the same mountain as Quartzville's most productive mine, the Lawler Mine. 
+<br><br>On the claim are four known adits. Two of these adits are on the lower vein with roughly 40 feet of vertical distance between them. Assays taken from the lower vein ran as high as 5.02 oz/ton gold. The third adit is located higher up on the mountain and taps a different vein. The fourth adit is a small prospect high above the first and second adits. There are dozens of open cuts and prospect pits on the property as well.  
+</p>
+    
+</div>
+
+<div class="table">
+<table id="t01" style="width:70%">
+  <tr>
+    <th class="yellow">Feature</th>
+    <th class="yellow">Description</th>
+  </tr>
+  <tr>
+    <th class="blue1"><strong>Adits: </strong></th>
+    <th class="blue1">3 open adits</th>
+  </tr>
+  <tr>
+    <th class="blue2"><strong>Cuts and Pits: </strong></th>
+    <th class="blue2">Scattered prospect pits</th>
+  </tr>
+  <tr>
+    <th class="blue1"><strong>Artifacts: </strong></th> 
+    <th class="blue1">Ore cart rails, metal debris.</th> 
+  </tr>
+   <tr>
+    <th class="blue2"><strong>Structures: </strong></th>
+    <th class="blue2">None.</th>
+  </tr>
+  <tr>
+    <th class="blue1"><strong>Resources: </strong></th>
+    <th class="blue1">Timber, water, existing roads</th>
+  </tr>
+</table>
+</div>
+
+<div class="table">
+<table id="t01" style="width:70%">
+  <tr>
+    <th class="yellow">Opening</th>
+    <th class="yellow">Drifts</th>
+    <th class="yellow">Crosscuts</th>
+    <th class="yellow">Total</th>
+  </tr>
+  <tr>
+    <th class="blue1"><strong>Lower Adit</strong></th>
+    <th class="blue1">900ft</th>
+    <th class="blue1">300ft</th>
+    <th class="blue1">1,200ft</th>
+  </tr>
+  <tr>
+    <th class="blue2"><strong>Middle Adit</strong></th>
+    <th class="blue2">300ft</th>
+    <th class="blue2">50ft</th>
+    <th class="blue2">350ft</th>
+  </tr>
+  <tr>
+    <th class="blue1"><strong>Upper Adit</strong></th>
+    <th class="blue1">10ft</th>
+    <th class="blue1">0ft</th>
+    <th class="blue1">10ft</th>
+  </tr>
+  <tr style="border">
+    <th class="blue2"><strong>Total Underground Workings</strong></th>
+    <th class="blue2"><strong>1210ft</strong></th>
+    <th class="blue2"><strong>350ft</strong></th>
+    <th class="blue2"><strong>1,560ft</strong></th>
+  </tr>
+</table>
+
+</div>
+
+
+<h1>What is Being Sold</h1>
+<ul>
+<li>20.66 acre Relief Mine unpatented mining claim ORMC 172954.</li>
+<li>GPS coordinates to all adits, corner posts and other places of interest.</li>
+<li>Most recent assay results done by ALS Minerals.</li>
+</ul>
+
+<h1>History</h1>
+
+<div class="pmaindiv">
+<p class="pmain">
+There were two distinct phases of mining history on this property. The first phase occurred during the 1890s when gold was first discovered at the Relief Mine by earlier pioneer miners. These miners discovered and developed the uppermost vein on the property, upon which the upper adit is driven. The second phase of history began with the discovery of the lower vein, which yielded incredibly rich assay values (see table below). This vein was not discovered until the 1930s when a group of mining brothers moved to the area. This vein was not discovered early because it is a “blind vein,” meaning that it does not show on the surface. In fact, it’s amazing it was even discovered at all. It also makes one wonder, how many other gold-rich blind veins are on the claim? It’s up to you to find out.
+</p>  
+<p class="pmain">
+The Aho brothers came from a family of miners and had a vast knowledge of gold mining. The brothers owned and operated the Relief Mine from the mid 1930s until the 1970s. Because of the mine’s richness, the Aho brothers were able to make a substantial portion of their living from the gold they recovered at the mine.
+</p>
+<p class="pmain">
+The hardworking Aho brothers accumulated a large stockpile of gold from the Relief Mine. Several reports state that visitors of the Aho brothers were shown “jars of gold,” another indication of the mine’s richness. The Aho brothers lived on the claim in a small cabin just down the hill from the mine. The ore was processed in a mill that the brothers constructed. Some remnants of the cabin and mill still remain onsite to this day.
+</p>
+    
+<p class="pmain">
+Why is there still so much rich gold ore left at this mine? The answer, unfortunately, is tragic. Today, the face of the east drift in the lower adit is obscured by the muck pile from the final blast the Aho brothers set off. According to official reports, a stick of dynamite had not detonated in the previous blast and went off when they returned to clean out the muck pile, instantly killing all three of them. We can only imagine how huge this mine would have been if they had been able to continue mining. It would likely have had large stopes and produced immense amounts of gold.
+</p>
+</div>
+
+
+<h1>Gold Assay Values</h1>
+
+<div class="pmaindiv">
+<p class="pmain">We are proud to say that we are the only claim selling business on Ebay to provide extensive assaying and testing of the mines we sell. We extracted and assayed 5 samples from three of the four adits onsite and the assays were performed by ALS Minerals of Reno, NV. The raw assay values are below:
+</p>
+
+</div>
+
+<div class="table">
+<table id="t02" style="width:85%">
+  <tr>
+    <th class="yellow">Sample No</th>
+    <th class="yellow">Sample Location</th>
+    <th class="yellow">Assay Result (oz/ton)</th>
+  </tr>
+  <tr>
+    <th class="blue1">Sample 1</th>
+    <th class="blue1">Lower Adit</th>
+    <th class="blue1">3.39 oz/ton</th>
+  </tr>
+  <tr>
+    <th class="blue2">Sample 2</th>
+    <th class="blue2">Lower Adit</th>
+    <th class="blue2">5.14 oz/ton</th>
+  </tr>
+  <tr>
+    <th class="blue1">Sample 3</th>
+    <th class="blue1">Lower Adit</th>
+    <th class="blue1">2.33 oz/ton</th>
+  </tr>
+   <tr>
+    <th class="blue2">Sample 4</th>
+    <th class="blue2">Middle Adit</th>
+    <th class="blue2">0.486 oz/ton</th>
+  </tr>
+  <tr>
+    <th class="blue1">Sample 5</th>
+    <th class="blue1">Upper Adit</th>
+    <th class="blue1">0.182 oz/ton</th>
+  </tr>
+</table>
+</div>
+
+<br>
+
+<div class="pmaindiv">
+<p class="pmain">Below are the raw values that were sent to us directly from ALS Minerals. These values are in PPM (not oz/ton) but are equivilent to the values given above.
+</p>
+
+</div>
+
+<div class="pmaindiv">
+<center><img class="centered-border" src="https://c1.staticflickr.com/1/468/31589729702_a9622bdf52_o.jpg" width="720"></center>
+</div>
+
+<h1 class="assay">Lower Adit Results</h1>
+
+<div class="pmaindiv">
+<p class="pmain">The lower adit averaged 3.63 oz/ton gold with a maximum value of 5.14 oz/ton. These are absolutely phenomenal values, hands down the best assay results we have ever received and <strong>likely some of the highest values ever found in a mine offered for sale on Ebay</strong>. The vein averages under 2 inches in width along the 70 feet we sampled. The ore is in a clay gouge, which can be mined without having to remove any waste rock. Another huge benefit of this deposit is that the ore does not need to be crushed. The gold is completely free in the clay gouge and only needs to be screened and milled using gravity methods, this process can be seen in the video below. 
+</p>
+</div>
+
+
+<h1 class="assay">Middle Adit Results</h1>
+
+<div class="pmaindiv">
+<p class="pmain">One sample was taken from the middle adit, this sample assayed at 0.486 oz/ton gold. There is good potential for gold recovery in this adit. The vein is up to 2 feet and the adit continues for over 40ft. More exploration should be done here and on the surface above the workings.
+</p>
+</div>
+
+
+<h1 class="assay">Upper Adit Results</h1>
+
+<div class="pmaindiv">
+<p class="pmain">One sample was taken from the upper adit, this sample assayed at 0.18 oz/ton gold. This adit explores a completely separate vein from the one tapped by the lower two adits. The vein is much wider but contains significantly lower gold values as indicated by the assay above. There are some massive open cuts and trenches on the hillside above this adit as well. This would be a great place to prospect.
+</p>
+</div>
+
+
+<h1>Estimated Total Reserves</h1>
+
+<div class="pmaindiv">
+<p class="pmain">Using the dimensions of the EXPOSED vein, the average assay values and current gold prices, we were able to calculate the estimated value of the lower Relief Vein.</p>   
+</div>
+
+<div class="table">
+<table id="t02" stlye="width:85%">
+<tr>
+	<th class="yellow">Average oz/ton</th>
+    <th class="yellow">Vein Length</th>
+    <th class="yellow">Vein Width</th>
+    <th class="yellow">Vein Height</th>
+    <th class="yellow">Total Vein Tonnage</th>
+    <th class="yellow">Total Ounces of Gold</th>
+    <th class="yellow">Total Value</th>
+ </tr>
+ 
+ <tr>
+ 	<th class="blue1">3.63 opt</th>
+    <th class="blue1">80ft</th>
+ 	<th class="blue1">0.167ft</th>
+ 	<th class="blue1">50ft</th>
+ 	<th class="blue1">49 tons</th>
+    <th class="blue1">179.6 oz</th>
+    <th class="blue1"><strong>$221,648</strong></th>
+</tr>
+</table>
+</div>
+
+<h1>Comparing to Other Mines in Oregon</h1>
+
+<div class="pmaindiv">
+<p class="pmain">Below are data from some of Oregon’s most successful mines compared to the Relief Mine. It’s clear from this comparison that the Relief has huge potential to be a masssive gold producer. The Lawler Mine (listed below) was the largest and most productive mine in the Quartzville district and is just a few miles from the Relief Mine.
+</p>
+
+</div>
+
+<div class="table">
+<table id="t02" style="width:85%">
+  <col width="155">
+  <col width="155">
+  <tr>
+    <th class="yellow">Mine Name</th>
+    <th class="yellow">Location</th>
+    <th class="yellow">Gold Assay Averages</th>
+    <th class="yellow">Total Production (2016 dollars)</th>
+  </tr>
+  <tr style="border-bottom: solid 1px #F4D220">
+    <th class="blue1"><strong>Relief Mine</strong></th>
+    <th class="blue1">Linn County</th>
+    <th class="blue1">3.63 oz/ton</th>
+    <th class="blue1">Unknown</th>
+  </tr>
+  <tr>
+    <th class="blue2"><strong>Lawler Mine</strong></th>
+    <th class="blue2">Linn County</th>
+    <th class="blue2">0.50 oz/ton</th>
+    <th class="blue2">$7,200,000</th>
+  </tr>
+  <tr>
+    <th class="blue1"><strong>Champion Mine</strong></th>
+    <th class="blue1">Lane County</th>
+    <th class="blue1">0.55 oz/ton</th>
+    <th class="blue1">$4,000,000</th>
+  </tr>
+   <tr>
+    <th class="blue2"><strong>Benton Mine</strong></th>
+    <th class="blue2">Josephine County</th>
+    <th class="blue2">0.35 oz/ton</th>
+    <th class="blue2">$9,000,000</th>
+  </tr>
+</table>
+
+</div>
+
+<h1>Video of the Relief Mine</h1>
+
+<center><object style="width:100%;height:100%;width: 820px; height: 461.25px; float: none; clear: both; margin: 2px auto;" data="http://www.youtube.com/embed/SRQT5w4MA58">
+</object></center>
+
+<br>
+
+<h1>Pictures of the claim</h1>
+
+</div>
+
+<div class="main">
+
+<center><img style="mainpics" src="https://c1.staticflickr.com/5/4453/36605764274_16c003460d_o.jpg"></center>
+
+<center><img style="mainpics" src="https://c1.staticflickr.com/5/4353/37059237970_91553de77b_o.jpg"></center>
+
+<center><img style="mainpics" src="https://c1.staticflickr.com/5/4340/37059271430_cac1360fbd_o.jpg"></center>
+
+<center><img style="mainpics" src="https://c1.staticflickr.com/5/4456/36605842814_f5be05c83f_o.jpg"></center>
+
+<center><img style="mainpics" src="https://c1.staticflickr.com/5/4511/36645757063_8a18a9cd02_o.jpg"></center>
+
+<center><img style="mainpics" src="https://c1.staticflickr.com/3/2910/33897434646_2d014293a1_o.jpg"></center>
+
+<h1>Accessibility</h1>
+
+<div class="pmaindiv">
+<p class="pmain">
+The mine can be reached by driving 34 miles from Sweet Home, OR on a <strong>paved road.</strong> After parking your vehicle, a short, ¼ mile hike is required to reach the entrance of the main adit. Hiking to the main adit takes approximately 15 minutes and is rated moderate. Hiking from the main adit to the upper adit is rated strenuous.
+</p>
+</div>
+
+<h1>Underground Workings Maps</h1>
+
+<div class="pmaindiv">
+<p class="pmain">For a better understanding of the Relief's underground workings, we have provided maps for both the upper and lower adits. These maps are not to scale and are approximations.
+</p>
+</div>
+
+<img class="centered" src="https://c1.staticflickr.com/1/593/30912578454_dcf7eeb8fc_o.png" width="600">
+
+<h1>Map of Claim</h1>
+
+<div class="pmaindiv">
+<p class="pmain">Below is a map of the claim showing the important features onsite. The buyer will recieve more detailed location information including coordinates and directions once the the auction has ended.</p>
+</div>
+
+<center><img src="https://c1.staticflickr.com/5/4188/33811059813_35c3b59c12_o.jpg" width="720" height="480"></center>
+
+<br>
+
+<h1>Corner Posts</h1>
+
+<div class="pmaindiv">
+<p class="pmain">The Relief Mine is ready to go! All four corner posts and the discovery marker have been installed on the claim.</p>
+<p class="oblique">Note: the location of the NW corner is extremely rugged and hard to reach, therefore a 3ft rock pile was used instead of a post.
+</p>
+    
+</div>
+
+<center><img src="https://c1.staticflickr.com/5/4163/33741387794_3d133efd8b_o.jpg" width="720" height="960"></center>
+
+<h1>About Us</h1>
+
+<div class="pmaindiv">
+<p class="pmain">
+Bonanza Gold Claims is the Ebay user name for two mining enthusiasts, Graham Spencer and Joe Ghiorso. Graham is an undergraduate Mechanical Engineering student at Oregon State University and has worked as an engineer in both the mining and automotive industries. He has been associated with the mining community for several years and has spent hundreds of hours underground in hardrock mines. Joe Ghiorso is an undergraduate Geology student at Oregon State University and has done extensive mineral exploration throughout the state of Oregon. He currently owns and operates several small scale hardrock mines in the Oregon Cascades. 
+</p>
+</div>
+
+<h1>Contact Information</h1>
+
+<p class="pmain">
+If you have any questions, concerns, or comments please do not hesitate to contact us. If you would like a tour of the property or would like to take samples prior to bidding, please contact us and we will schedule a time.
+<br><br>
+<strong>BonanzaClaims@gmail.com</strong>
+</p>
+
+<h1>Purchase and Sale Agreement</h1>
+
+<div class="pmaindiv">
+<p class="pmain">Payment will be made pursuant to terms substantially in the form of the attached Purchase and Sale Agreement through an escrow for the protection of each party.
+<br><br>
+<a class="main" href="https://drive.google.com/open?id=0B60GRXIRWk56ZHZnblNmUmQybDA">PURCHASE AND SALE AGREEMENT (LINK)</a>
+</p>
+
+
+</div>
+
+<h1>Terms and Conditions Upon Successful Bid</h1>
+
+<div class="pmaindiv">
+<p class="pmain">Notice of the winning bid will be confirmed in writing to the purchaser.  Purchaser will be provided and be required to sign, a Purchase and Sale Agreement substantially in the form as the attached Agreement.  The transaction will be closed through an escrow as set forth in the Agreement.  Any questions regarding the buyer’s legal duties and rights under the Purchase and Sale Agreement should be directed to independent legal counsel for the purchaser.
+</p>
+</div>
+
+<h1>Disclaimer</h1>
+
+<div class="pmaindiv">
+<p class="disclaimer"><strong>This sale is final. The buyer stipulates that they enter into this purchase in sole reliance upon their own judgement and upon their own personal investigation of the claim, and not upon any representation by the seller or any person whatsoever, regarding, but not limited to; the claim; the character of the claim; maintaining the claim’s status and mineral rights; quantity of minerals; value of minerals; access to claim; mining and milling methods; safety of any mining activity of the claim; and the income that may be derived therefrom. 
+<br><br>Access to this claim, by a prospective purchaser, for the purpose of conducting an independent investigation and private due diligence, including but not limited to mineral inspection, may be obtained upon reasonable request to seller. No other entry is permitted.<br><br>This claim is subject to and regulated by multiple government entities including but not limited to; US Forest Service, BLM, Linn County, Oregon, and the State of Oregon. Following purchase, it is the buyer’s obligation to operate and maintain the claim in compliance with the various county, state and federal agencies, regulations and laws. 
+</strong>
+</p>
+
+
+</div>
+</body>
+</html>
